@@ -25,6 +25,8 @@ group :development do
   gem "pry"
 end
 
+gem "faker", "~> 2.18"
+
 # These gems will only be used when we are running tests
 group :test do
   gem "database_cleaner"
